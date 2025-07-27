@@ -197,3 +197,25 @@ header {
     font-size: 2rem;
     color: #000000;
 }
+
+#contact {
+    margin-bottom: 500px;
+}
+
+@media (max-width: 800px) {
+    #contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-card {
+        margin: 0 auto;
+    }
+
+    .navbar {
+        display: none;
+    }
+    #contact {
+        margin-bottom: 200px;
+    }
+}
